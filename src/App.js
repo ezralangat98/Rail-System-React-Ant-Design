@@ -1,6 +1,6 @@
 import './App.css';
 
-import { Layout, Menu, Breadcrumb, Typography, Row, Col, Card} from 'antd';
+import { Layout, Menu, Breadcrumb, Typography, Row, Col, Card, DatePicker} from 'antd';
 import {
   DesktopOutlined,
   PieChartOutlined,
@@ -21,12 +21,16 @@ function App() {
   return (
     <div>
       <Layout style={{ minHeight: '100vh' }}>
-        <Sider collapsible collapsed={collapsed} onCollapse={() => setCollapsed(!collapsed)}>
+        
+        <Sider collapsible collapsed={collapsed} 
+         onCollapse={() => setCollapsed(!collapsed)}>
+           
           <div className="logo" />
           <Menu theme="dark" defaultSelectedKeys={['1']} mode="inline">
             <Menu.Item key="1" icon={<PieChartOutlined />}>
                 Home
             </Menu.Item>
+
             <Menu.Item key="2" icon={<DesktopOutlined />}>
              Manage Resources
             </Menu.Item>
@@ -57,8 +61,8 @@ function App() {
               <div style={{display: "flex", justifyContent: "space-between"}}>
                 <Card style={{flex: "1", height: "400px"}}> Total Users</Card>
                 <Card style={{flex: "1", height: "400px"}}> Total Rooms</Card>
-                <Card style={{flex: "1", height: "400px"}}> Organizations</Card>
                 <Card style={{flex: "1", height: "400px"}}> Rooms Available</Card>
+                <Card style={{flex: "1", height: "400px"}}> <DatePicker/></Card>
               
               </div>
             </div>
