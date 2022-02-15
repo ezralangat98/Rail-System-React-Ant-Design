@@ -1,6 +1,7 @@
 import './App.css';
 
-import { Layout, Menu, Breadcrumb, Typography, Row, Col, Card, DatePicker} from 'antd';
+import { Layout, Menu, Breadcrumb, Typography, Row, Col, 
+  Card, DatePicker, Button} from 'antd';
 import {
   DesktopOutlined,
   PieChartOutlined,
@@ -62,7 +63,8 @@ function App() {
                 <Card style={{flex: "1", height: "400px"}}> Total Users</Card>
                 <Card style={{flex: "1", height: "400px"}}> Total Rooms</Card>
                 <Card style={{flex: "1", height: "400px"}}> Rooms Available</Card>
-                <Card style={{flex: "1", height: "400px"}}> <DatePicker/></Card>
+                <Card style={{flex: "1", height: "400px"}}> <DatePicker/>
+                <Button style={{marginLeft: "10px"}} type="primary">Submit</Button> </Card>
               
               </div>
             </div>
