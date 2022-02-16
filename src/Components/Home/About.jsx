@@ -29,10 +29,13 @@ function About() {
     <div className="container-fluid">
       <div className="titleHolder">
         <h2>About Us</h2>
-        <p>dolor sit amet, consectetur adipisicing elit</p>
+        <p>We provide world class rail services</p>
       </div>
       <div className="contentHolder">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit necessitatibus officiis repudiandae est deserunt delectus dolorem iure porro distinctio fuga, nostrum doloremque. Facilis porro in laborum dolor amet ratione hic? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam aut a porro, adipisci quidem sint enim pariatur ducimus, saepe voluptatibus inventore commodi! Quis, explicabo molestias libero tenetur temporibus perspiciatis deserunt.</p>
+        <p>The core mandates of the corporation are to provide an efficient and effective rail and inland waterways transport.
+        We adhere to impeccable professional and personal standards while conducting the affairs of the Corporation. 
+        The Corporation’s services shall be offered in a professional manner and with expertise that ensures high quality.
+        </p>
       </div>
       <Row gutter={[16, 16]}>   
         {items.map(item => {

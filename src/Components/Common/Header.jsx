@@ -7,7 +7,7 @@ const AppHeader = () => {
     <div className="container-fluid">
       <div className="header">
         <div className="logo">
-          <i className="fas fa-bolt"></i>
+          <i className="fas fa-train"></i>
           <a href="http://google.com">Rail System</a>
         </div>
 

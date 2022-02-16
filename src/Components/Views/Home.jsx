@@ -1,13 +1,15 @@
 import React from "react";
 import About from "../Home/About";
-import AppHero from "../Home/Hero";
+import AppFeatures from "../Home/Features";
+import AppDescription from "../Home/Description";
 
 
 const AppHome = () => {
   return (
     <div>
-        <AppHero/>
+        <AppDescription/>
         <About/>
+        <AppFeatures/>
     </div>
   )
 }

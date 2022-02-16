@@ -6,22 +6,22 @@ import { Carousel } from 'antd';
 const items = [
   {
     key: '1',
-    title: 'Web and mobile payment built for developers',
-    content: 'This is the best platform for Web and mobile payment built for developers',
+    title: 'Platform build for everyone who is travelling',
+    content: 'This is the best platform acessible via Web and mobile payment built for travellers to book trains',
   },
   {
     key: '2',
-    title: 'Work better together. Schedule meetings',
-    content: 'To be successful in life you have got to Work better together. Schedule meetings',
+    title: 'Travel better together. Book your train ealy',
+    content: 'To be successful in life you have got to Work better together.',
   },
   {
     key: '3',
     title: 'The best app to increase your productivity',
-    content: 'This platoform is one of the best app to increase your productivity .',
+    content: 'This platform is one of the best app to increase your productivity .',
   },
 ]
 
-function AppHero() {
+function AppDescription() {
   return (
     <div id="hero" className="heroBlock">
       <Carousel>
@@ -44,4 +44,4 @@ function AppHero() {
   );
 }
 
-export default AppHero;
+export default AppDescription;
