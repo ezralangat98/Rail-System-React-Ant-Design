@@ -7,19 +7,19 @@ const items = [
     key: '1',
     icon: <i className="fas fa-chart-pie"></i>,
     title: 'High Performance',
-    content: 'cu nostro dissentias consectetuer mel. Ut admodum conceptam mei, cu eam tation fabulas abhorreant. His ex mandamus.',
+    content: 'Our services ensures high performance.',
   },
   {
     key: '2',
     icon: <i className="fas fa-desktop"></i>,
     title: 'Flat Design',
-    content: 'cu nostro dissentias consectetuer mel. Ut admodum conceptam mei, cu eam tation fabulas abhorreant. His ex mandamus.',
+    content: 'We ensure that Flat Design is always gathered for.',
   },
   {
     key: '3',
     icon: <i className="fas fa-database"></i>,
     title: 'Simplified Workflow',
-    content: 'cu nostro dissentias consectetuer mel. Ut admodum conceptam mei, cu eam tation fabulas abhorreant. His ex mandamus.',
+    content: 'Our Simplified Workflow will anable your quick understanding of the esential technologies that you will be learning.',
   },
 ]
 
