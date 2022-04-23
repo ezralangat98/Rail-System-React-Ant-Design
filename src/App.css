@@ -13,7 +13,7 @@ body {
   
   .container-fluid {
     margin: 0 auto;
-    max-width: 1200px;
+    max-width: 120000px;
     padding: 0 15px;
   }
   
@@ -47,7 +47,7 @@ body {
     padding: 0 0 20px;
     margin: 0 0 40px;
   }
-  
+  /* Blue line after desc*/
   .titleHolder:after {
     transform: translateX(-50%);
     content: '';
