@@ -13,7 +13,7 @@ const AppFeatures = () => {
       <div className="container-fluid">
         <div className="titleHolder">
           <h2>Key Features and Benefits</h2>
-          <p>These are the key features and benefits of our elegant serveices.</p>
+          <p>These are the key features and benefits of our elegant services.</p>
           </div>
           <Row gutter={[16, 16]}>
             <Col span={8}> 

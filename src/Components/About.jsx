@@ -33,7 +33,7 @@ function About() {
         <p>We provide world class rail services</p>
       </div>
       <div className="contentHolder">
-        <p>The core mandates of the corporation are to provide an efficient and effective rail and inland waterways transport.
+        <p>The core mandates of the corporation are to provide an efficient and effective rail inland and waterways transport.
         We adhere to impeccable professional and personal standards while conducting the affairs of the Corporation. 
         The Corporation’s services shall be offered in a professional manner and with expertise that ensures high quality.
         </p>
